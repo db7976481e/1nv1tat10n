@@ -8,7 +8,7 @@ a {
 
 div.cloud {
     position: absolute;
-    background-image: url(/Invitations/Icons/cloud.svg);
+    background-image: url(../Invitations/Icons/cloud.svg);
     background-size: cover;
 
     width: 500px;
@@ -54,7 +54,7 @@ div.cloud .content {
 div.main {
     width: auto;
     height: 100vh;
-    background-image: url('/Background.svg');
+    background-image: url('../Background.svg');
     background-position: 73% 50%;
     background-repeat: no-repeat;
     background-size: cover;
