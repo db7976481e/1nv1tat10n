@@ -14,8 +14,8 @@
 }
 
 @font-face {
-  font-family: ADayWithoutSun;
-  src: URL('fonts/ADayWithoutSun.otf') format('truetype');
+  font-family: ComicRelief;
+  src: URL('fonts/ComicRelief.ttf') format('truetype');
 }
 
 h1 {
@@ -37,7 +37,15 @@ h3{
 }
 
 h4{
-  font-family: AdayWithoutSun;
+  font-family: ComicRelief;
   font-size: 30pt;
   color: #101914;
 }
+
+p{
+  font-family: ComicRelief;
+  font-size: 20pt;
+  text-align: justify;
+  color: #7d5430;
+}
+

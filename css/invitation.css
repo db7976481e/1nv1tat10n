@@ -1,0 +1,82 @@
+div.heading-cloud{
+    display: flex;
+    background-image: url(../Invitations/Icons/cloud.svg);
+    background-size: cover;
+
+    top: -20%;
+
+    width: 500px;
+    height: 415px;
+
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.cloud-container .center{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 50%;
+}
+
+div.heading-cloud h1{
+    font-size: 32pt;
+    margin-top: 100px;
+}
+
+div.heading-cloud h2{
+    font-size: 64pt;
+    margin-left: 80px;
+}
+
+div.center .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.content h3{
+    margin-top: 1em;
+}
+
+
+@media screen and (max-width: 576px) {
+    div.heading-cloud{
+        width: 300px;
+        height: 300px;
+    }
+
+    div.cloud-container .center{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    div.heading-cloud h1{
+        font-size: 20pt;
+        margin-top: 40px;
+    }
+
+    div.heading-cloud h2{
+        font-size: 30pt;
+    }
+
+    div.center .content {
+        margin-top: 75%;
+    }
+
+    p{
+        font-family: ComicRelief;
+        font-size: 10pt;
+    }
+
+    h3{
+        font-size: 18pt;
+    }
+}
