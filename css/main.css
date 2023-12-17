@@ -63,7 +63,24 @@ div.main {
 @media screen and (max-width: 576px) {
     div.main {
         background-position: 53% 50%;
+    }
 
+    div.cloud{
+        width: 300px;
+        height: 300px;
+    }
 
+    h2{
+        font-size: 64pt;
+    }
+
+    div.cloud.lt{
+        top: 5%;
+        left: 5%
+    }
+
+    div.cloud.ru{
+        top: 25%;
+        left: 25%
     }
 }
