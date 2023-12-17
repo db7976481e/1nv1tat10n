@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.cloud {
+    position: absolute;
+    background-image: url(/Invitations/Icons/cloud.svg);
+    background-size: cover;
+
+    width: 500px;
+    height: 500px;
+
+    pointer-events: none;
+    transition: all 0.2s;
+}
+
+div.cloud:hover{
+    transform: scale(1.1);
+}
+
+
+div.cloud h2{
+    pointer-events: auto;
+}
+
+div.cloud.lt{
+    left: 20%;
+    top: 0%;
+}
+
+div.cloud.ru{
+    left: 45%;
+    top: 20%;
+}
+
+div.cloud .content {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24pt;
+
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+div.main {
+    width: auto;
+    height: 100vh;
+    background-image: url('/Background.svg');
+    background-position: 73% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 576px) {
+    div.main {
+        background-position: 53% 50%;
+
+
+    }
+}

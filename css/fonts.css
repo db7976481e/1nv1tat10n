@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Caveat;
+  src: URL('/css/fonts/Caveat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Besom;
+  src: URL('/css/fonts/Besom-Handwritten-Brush-Font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Adigiana;
+  src: URL('/css/fonts/AdigianaExtreme-JvLM.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ADayWithoutSun;
+  src: URL('/css/fonts/ADayWithoutSun.otf') format('truetype');
+}
+
+h1 {
+  font-family: Caveat;
+  font-size: 40pt;
+  color: #D17520;
+}
+
+h2{
+  font-family: Besom;
+  font-size: 108pt;
+  color: #D17520;
+}
+
+h3{
+  font-family: Adigiana;
+  font-size: 30pt;
+  color: #D17520;
+}
+
+h4{
+  font-family: AdayWithoutSun;
+  font-size: 30pt;
+  color: #101914;
+}
