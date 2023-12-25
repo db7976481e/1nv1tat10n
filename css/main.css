@@ -12,7 +12,7 @@ html, body {
     overflow: hidden
 }
 
-div.main {
+body{
     width: auto;
     height: 100vh;
     background-image: url('../Background.svg');
@@ -20,6 +20,11 @@ div.main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+div.main {
+    height: 100vh;
+}
+
 
 div.cloud-container{
     display: flex;

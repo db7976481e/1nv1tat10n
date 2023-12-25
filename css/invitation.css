@@ -1,45 +1,57 @@
-div.heading-cloud{
+div.header{
     display: flex;
-    background-image: url(../Invitations/Icons/cloud.svg);
-    background-size: cover;
+    align-items: center;
+    justify-content: center;
 
-    top: -20%;
+    width: 100%;
+    height: 20vh;
+}
 
-    width: 500px;
-    height: 415px;
+div.header .heading-cloud{
+    position: relative;
+    
+    height: 200%;
+    width: auto;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+div.header .heading-cloud img {
+    position: relative;
+    height: 100%;
+}
+
+div.header .heading-cloud .cloud-text{
     position: absolute;
 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 100%;
+    text-align: center;
 }
 
-div.cloud-container .center{
+div.header .heading-cloud .cloud-text h1{
+    font-size: 3vh;
+}
+
+div.header .heading-cloud .cloud-text h2{
+    font-size: 7vh;
+    margin-left: 20%;
+}
+
+div.cloud-container {
+    width: 100%;
+}
+
+div.cloud-container .content{
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    width: 720px;
-}
-
-div.heading-cloud h1{
-    font-size: 32pt;
-    margin-top: 100px;
-}
-
-div.heading-cloud h2{
-    font-size: 64pt;
-    margin-left: 80px;
-}
-
-div.center .content {
-    display: flex;
     flex-direction: column;
+    justify-content: start;
     align-items: center;
-    justify-content: center;
-    margin-top: 250px;
+    height: 100%;
+    width: 720px;
 }
 
 .content h3{
@@ -54,7 +66,7 @@ div.center .content {
     align-items: start;
     justify-content: center;
 
-    height: 333.7px;
+    height: 25vh;
     width: 100%;
 }
 
@@ -78,7 +90,7 @@ div.center .content {
 }
 
 .footer .center .item:nth-child(2) p{
-    font-size: 14pt;
+    font-size: 1.4vh;
     text-align: center;
     color: #D17520;
 }
@@ -88,13 +100,18 @@ div.center .content {
     overflow-wrap: break-word;
     width: 160px;
     text-align: center;
-    font-size: 20pt;
+    font-size: 2vh;
     cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
 
 .footer .item img{
     margin-top: 10px;
-    width: 100px;
+    width: 7vh;
 }
 
 @media screen and (max-width: 576px) {
@@ -103,9 +120,12 @@ div.center .content {
         height: 300px;
     }
 
-    div.cloud-container .center{
+    div.cloud-container{
         width: 100%;
-        padding: 0 20px;
+    }
+
+    div.cloud-container .content{
+        width: 92%;
     }
 
     div.heading-cloud h1{
