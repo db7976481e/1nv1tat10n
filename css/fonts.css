@@ -3,9 +3,14 @@
   src: URL('fonts/Caveat-VariableFont_wght.ttf') format('truetype');
 }
 
-@font-face {
+/* @font-face {
   font-family: Besom;
   src: URL('fonts/Besom-Handwritten-Brush-Font.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: Besom;
+  src: URL('fonts/Besom-extended.otf') format('truetype');
 }
 
 @font-face {

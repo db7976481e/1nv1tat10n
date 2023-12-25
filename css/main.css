@@ -32,7 +32,7 @@ div.cloud-container{
     justify-content: center;
 
     width: 100%;
-    height: 40vh;
+    height: 60vh;
 }
 
 div.cloud-container .center{
@@ -46,8 +46,8 @@ div.cloud {
     background-image: url(../Invitations/Icons/cloud.svg);
     background-size: cover;
 
-    width: 500px;
-    height: 500px;
+    width: 35vh;
+    height: 35vh;
 
     pointer-events: none;
     transition: all 0.2s;
@@ -67,7 +67,6 @@ div.cloud.ru{
     bottom: 0%;
 }
 
-
 div.cloud h2{
     pointer-events: auto;
 }
@@ -80,10 +79,12 @@ div.cloud .content {
     align-items: center;
     justify-content: center;
 
-    font-size: 24pt;
-
     padding-top: 0.5em;
     padding-left: 0.5em;
+}
+
+div.cloud h2{
+    font-size: 10vh;
 }
 
 @media screen and (max-width: 576px) {
