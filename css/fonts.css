@@ -14,6 +14,11 @@
 }
 
 @font-face {
+  font-family: Adlery;
+  src: URL('fonts/Adlery-Pro-Blockletter.ttf') format('truetype');
+}
+
+@font-face {
   font-family: Adigiana;
   src: URL('fonts/AdigianaExtreme-JvLM.ttf') format('truetype');
 }
@@ -30,13 +35,13 @@ h1 {
 }
 
 h2{
-  font-family: Besom;
+  font-family: Adlery;
   font-size: 108pt;
   color: #D17520;
 }
 
 h3{
-  font-family: Adigiana;
+  font-family: Adlery;
   font-size: 3vh;
   color: #D17520;
 }
