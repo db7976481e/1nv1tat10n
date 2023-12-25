@@ -32,11 +32,11 @@ div.header .heading-cloud .cloud-text{
 }
 
 div.header .heading-cloud .cloud-text h1{
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 div.header .heading-cloud .cloud-text h2{
-    font-size: 7vh;
+    font-size: 6vh;
     margin-left: 20%;
 }
 
@@ -51,67 +51,65 @@ div.cloud-container .content{
     justify-content: start;
     align-items: center;
     height: 100%;
-    width: 720px;
+    width: 70vh;
 }
 
-.content h3{
+.content h3:first-child{
     margin-top: 1em;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-
-    display: inline-flex;
-    align-items: start;
-    justify-content: center;
-
-    height: 25vh;
-    width: 100%;
+.content h3{
+    margin-top: 0.2em;
 }
 
-.footer .center {
+.content .icons {
     display: inline-flex;
     align-items: start;
     justify-content: space-between;
 
-    width: 750px;
+    width: 70vh;
     height: 100%;
+
+    padding-top: 2em;
 }
 
-.footer .center .item:nth-child(odd){
-    color: #FAF9ED;
-}
-
-.footer .center .item:nth-child(2){
-    align-self: center;
-    width: 360px;
-    cursor: default;
-}
-
-.footer .center .item:nth-child(2) p{
-    font-size: 1.4vh;
-    text-align: center;
-    color: #D17520;
-}
-
-.footer .item {
+.icons .item {
     font-family: adigiana;
     overflow-wrap: break-word;
     width: 160px;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.6vh;
     cursor: pointer;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+
+    color: #D17520;
 }
 
-.footer .item img{
+.icons .item p {
+    color: #D17520;
+}
+
+.content .item:nth-child(2){
+    cursor: default;
+}
+
+.content .item:nth-child(2) p{
+    font-size: 1.4vh;
+    width: 35vh;
+    text-align: center;
+}
+
+.icons .item img{
     margin-top: 10px;
-    width: 7vh;
+    width: 5vh;
+}
+
+.icons .item:nth-child(odd) img{
+    filter: invert(54%) sepia(27%) saturate(2951%) hue-rotate(354deg) brightness(89%) contrast(81%);
 }
 
 @media screen and (max-width: 576px) {
@@ -150,55 +148,58 @@ div.cloud-container .content{
         font-size: 18pt;
     }
 
-    .footer {    
+    .content .icons {    
+        position: fixed;
+        bottom: 0;
         height: 200px;
         width: 100%;
     }
     
-    .footer .center {
+    .content .icons {
         display: inline-flex;
         align-items: start;
         justify-content: space-between;
     
         width: 95%;
-        height: 100%;
-    }
-    
-    .footer .center .item:nth-child(odd){
-        color: #FAF9ED;
-    }
-    
-    .footer .center .item:nth-child(2){
+    }    
+
+    .content .icons .item:nth-child(2){
         align-self: center;
-        width: 360px;
+        width: 200px;
     }
     
-    .footer .center .item:nth-child(2) p{
+    .content .icons .item:nth-child(2) p{
         font-size: 10pt;
+        width: 200px;
         text-align: center;
         color: #D17520;
     }
     
-    .footer .item {
+    .icons .item {
         font-family: adigiana;
         overflow-wrap: break-word;
-        width: 160px;
+        width: 100px;
         text-align: center;
-        font-size: 16pt;
+        color: white;
+        font-size: 12pt;
     }
     
-    .footer .item img{
+    .icons .item img{
         margin-top: 10px;
         width: 50px;
-    }
-}
+    }    
 
-@media screen and (min-width: 576px) and (max-width: 1024px) {
-    
+    .icons .item:nth-child(odd) img{
+        filter: none;
+    }
 }
 
 @media screen and (min-width: 1880px){
     .footer {
         height: calc(520px - 10vw);
     }
+}
+
+@media screen and (min-width: 1880px){
+
 }
